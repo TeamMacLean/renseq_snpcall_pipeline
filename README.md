@@ -12,6 +12,7 @@ Analysis of renseq enriched data from bulk susceptible and susceptible parent fo
 6) bcftools
 
 ## usage:
-rake -f renseq_snpcall_pipeline.rb reference=PacBio_assembly_RenSeq_RParent_Wu-0_c1.contigs.fasta sample=bulksus samtools:bulksus
-rake -f renseq_snpcall_pipeline.rb  R1=DM10_Susparent/A5_TKD180301086-AK793_HCGHWBCX2_L2_1.fq.gz R2=DM10_Susparent/A5_TKD180301086-AK793_HCGHWBCX2_L2_2.fq.gz reference=PacBio_assembly_RenSeq_RParent_Wu-0_c1.contigs.fasta sample=susparent bowtie:run samtools:susparent
+
+1) rake -f renseq_snpcall_pipeline.rb reference=PacBio_assembly_RenSeq_RParent_Wu-0_c1.contigs.fasta sample=bulksus samtools:bulksus
+2) rake -f renseq_snpcall_pipeline.rb  R1=DM10_Susparent/A5_TKD180301086-AK793_HCGHWBCX2_L2_1.fq.gz R2=DM10_Susparent/A5_TKD180301086-AK793_HCGHWBCX2_L2_2.fq.gz reference=PacBio_assembly_RenSeq_RParent_Wu-0_c1.contigs.fasta sample=susparent bowtie:run samtools:susparent
 
